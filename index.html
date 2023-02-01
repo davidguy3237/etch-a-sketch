@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Etch-a-Sketch</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="header"><h1>Etch-a-Sketch</h1></div>
+  
+  <div class="container">
+    <div class="grid-container"></div>
+  </div>
+  
+  <div class="choices">
+    
+    <div class="slider-container">
+      <span class="slider-value-display"></span>
+      <input type="range" min="1" max="100" value="16" class="slider">
+    </div>
+    
+    <div class="color-container">
+      <input type="color" id="color-picker" value="#ffffff">
+    </div>
+    
+    <div class="toggle-container">
+      <button class="rainbow button">RAINBOW</button>
+      <button class="grid-toggle button">Grid Lines</button>
+    </div>
+    
+    <div class="button-container">
+      <button class="clear button">Clear</button>
+      <button class="reset button">Reset</button>
+    </div>
+  </div>
+  
+  <div class="footer">Designed by David Tran</div>
+</body>
+</html>
